@@ -8,7 +8,7 @@
 
 This extension creates handles on nodes that can be dragged to create edges between nodes ([demo](https://cytoscape.github.io/cytoscape.js-edgehandles/), [snapping demo](https://cytoscape.github.io/cytoscape.js-edgehandles/demo-snap.html), [compound demo](https://cytoscape.github.io/cytoscape.js-edgehandles/demo-compound.html), [compound snapping demo](https://cytoscape.github.io/cytoscape.js-edgehandles/demo-compound-snap.html)).
 
-This version has been slightly changed in order to add the position in the emit listner to the list of arguments. This is used to get this position in the callback.
+This version has been slightly changed in order to add the position in the emit listner to the list of arguments. This is used to get this position in the callback. It is based on version 3.6.0. Behaviour was changed in version 4 in a manner that it is not useful for Tycho Brahe Platform.
 
 ## Dependencies
 
