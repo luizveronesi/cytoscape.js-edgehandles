@@ -1353,6 +1353,7 @@ function emit(type, position) {
 
   var handler = options[type];
 
+  args.push(position);
   if (handler != null) {
     handler.apply(undefined, args);
   }
@@ -1360,7 +1361,13 @@ function emit(type, position) {
   return this;
 }
 
-module.exports = { addListener: addListener, addListeners: addListeners, removeListener: removeListener, removeListeners: removeListeners, emit: emit };
+module.exports = {
+  addListener: addListener,
+  addListeners: addListeners,
+  removeListener: removeListener,
+  removeListeners: removeListeners,
+  emit: emit
+};
 
 /***/ }),
 /* 12 */
